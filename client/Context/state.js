@@ -5,7 +5,7 @@ const AppContext = createContext();
 
 export function AppWrapper({ children }) {
   let sharedState = {
-      test: '123456',
+      test: 'Devon Owen',
       test2: '12345678'
   }
 
