@@ -35,3 +35,12 @@ a {
   overflow: hidden;
   z-index: 0
 }
+
+.DesktopIcon:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,.1);
+}
+
+.DesktopIconSelected {
+  
+}

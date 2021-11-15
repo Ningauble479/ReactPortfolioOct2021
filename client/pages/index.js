@@ -4,6 +4,7 @@ import DTImage from '../images/background.jpg'
 import { Box } from '@mui/system'
 import SideBar from '../components/desktop/LeftSidebar';
 import PDFRender from '../components/ImageRender/PDFRender';
+import DesktopIcon from '../components/general/desktopIcon';
 const Homepage = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Homepage = () => {
         <Box flex='1' display='flex'>
             <SideBar/>
             {/* <PDFRender/> */}
+            <DesktopIcon/>
         </Box>
     </div>
     
