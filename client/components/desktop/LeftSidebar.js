@@ -17,7 +17,7 @@ let SocialLink = ({link, icon, title}) => {
     const NamedImport = useIcons(icon)
     console.log(NamedImport)
     return (
-        <a href={link} target='_blank'>
+        <a href={link} target='_blank' rel="noreferrer">
             <Tooltip title={title}>
                 <Box className='linkClean'>
                     <NamedImport style={{width: '75px', height: '75px'}}/>
